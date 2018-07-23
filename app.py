@@ -49,7 +49,7 @@ EVENT_SUCCESS = "success"
 EVENT_FAILED = "failed"
 
 # chose HTTP, AMQP or MQTT as transport protocol
-PROTOCOL = IoTHubTransportProvider.MQTT
+PROTOCOL = IoTHubTransportProvider.AMQP
 
 # String containing Hostname, Device Id & Device Key in the format:
 # "HostName=<host_name>;DeviceId=<device_id>;SharedAccessKey=<device_key>"
